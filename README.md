@@ -20,7 +20,6 @@ This provides step-by-step approach learning GitHub Actions.
 3. [Matrix & Conditions](./step-03.md)
 4. [Events & Refactoring](./step-04.md)
 5. [Multi-Stage Deployments](./step-05.md)
-6. ~~~[Docker-Based GitHub Action](./step-06.md)~~~
 
 
 ## Further Reading ##
