@@ -33,12 +33,12 @@ jobs:
     - name: Restore NuGet packages
       shell: bash
       run: |
-        dotnet restore .
+        dotnet restore ./api
 
     - name: Build solution
       shell: bash
       run: |
-        dotnet build . -c Release
+        dotnet build ./api -c Release
 
     - name: Create FunctionApp artifact
       shell: bash
@@ -114,12 +114,12 @@ jobs:
     - name: Restore NuGet packages
       shell: bash
       run: |
-        dotnet restore .
+        dotnet restore ./api
 
     - name: Build solution
       shell: bash
       run: |
-        dotnet build . -c Release
+        dotnet build ./api -c Release
 
     - name: Create FunctionApp artifact
       shell: bash
@@ -259,12 +259,12 @@ jobs:
     - name: Restore NuGet packages
       shell: bash
       run: |
-        dotnet restore .
+        dotnet restore ./api
 
     - name: Build solution
       shell: bash
       run: |
-        dotnet build . -c Release
+        dotnet build ./api -c Release
 
     - name: Create FunctionApp artifact
       shell: bash
