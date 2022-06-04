@@ -199,4 +199,13 @@ jobs:
       shell: bash
       run: |
         echo ${{ secrets.HELLO }}
+
+    - name: Check secret
+      shell: pwsh
+      run: |
+        if ("${{ secrets.HELLO }}" -eq "World") {
+            echo "YES!"
+        } else {
+            echo "NO!"
+        }
 ```
